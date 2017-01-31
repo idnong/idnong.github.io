@@ -1,0 +1,2 @@
+# idnong.github.io
+blog
