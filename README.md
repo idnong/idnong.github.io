@@ -1,2 +1,3 @@
-# idnong.github.io
-blog
+# 南山猛士
+技术博客
+欢迎光临我的博客
