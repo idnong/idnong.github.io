@@ -158,6 +158,68 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-TensorFlow安装菜坑实录" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/07/TensorFlow安装菜坑实录/">Windows TensorFlow安装菜坑实录</a>
+    </h1>
+  
+
+        
+        <a href="/2017/02/07/TensorFlow安装菜坑实录/" class="archive-article-date">
+  	<time datetime="2017-02-07T01:11:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-07</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>   TensorFlow作为目前最被看好的深度学习开源框架，又顶着Google爸爸的光环，使得很多CNN网络的部署都基于此框架。<br>最近开始研究深度学习（AI），看了很多前人的经验，鉴于大部分源码都基于TensorFlow，theano，torch等Python框架，为了顺应时代潮流，<br>开始学习Tensorflow，此篇记录了一下安装过程中的坑，供以后翻阅。<br>其实总体来说，Tensorflow作为Google荣誉出品的框架，并不像caffe一样需要在很多依赖库上踩坑，毕竟作为一个Python框架，<br>所需的Python依赖包有很多一键安装的方式，如pip，conda等。之所以会有这篇踩坑记录，是因为网上很多文章都是Linux的<br>Windows平台是去年google 才放出来，网上教程也是千篇一律，都是泛泛的写pip install tensorflow 之类的。按照这种方法执行命令后，<br>各种安装不了，原因就是版本、版本、版本<br>   最开始装的2.7，然后pin install tensorflow 报错给的提示是没有这个版本的。后面百度不到，无奈google到一个人的回答说是python要3.x版本的<br>默默的去官网下载最新版3.6，装完配置好环境变量后，再次执行pin install tensorflow 依然不行，连提示都没有变。<br>   又是一通搜索，找到一个人说官方的只可以匹配python3.5的，就又重复下载、安装的过程，装完后，再次执行 pip install tensorflow<br>成功了。<br> 所以说版本很重要，期间还看到有人说去官网手动下载安装，经过尝试发现也一样不行，版本对应不上其他都是浮云。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">TensorFlow</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/02/07/TensorFlow安装菜坑实录/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-读《影响力》" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -432,6 +494,10 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">TensorFlow</a>
+              </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">《影响力》</a>
